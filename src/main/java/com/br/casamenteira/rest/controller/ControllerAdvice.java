@@ -53,4 +53,10 @@ public class ControllerAdvice {
     public APIErrors handleSenhaAlreadyExists(SenhaAlreadyExists e){
         return new APIErrors(e.getMessage());
     }
+
+    @ExceptionHandler(ClothesAlreadyRentedException.class)
+    @ResponseStatus(HttpStatus.NOT_FOUND)
+    public APIErrors handleClothesAlreadyRented(ClothesAlreadyRentedException e){
+        return new APIErrors(e.getMessage());
+    }
 }
