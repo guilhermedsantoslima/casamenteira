@@ -1,0 +1,28 @@
+.lateral{
+    background-color: black;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    height: 97vh;
+    width: 20vh;
+}
+
+.titulo{
+    background-color: #ED9455;
+    color: #F6F6F6;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 2px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.texto{
+    color: #F6F6F6;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20%;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
