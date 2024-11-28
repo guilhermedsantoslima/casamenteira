@@ -1,5 +1,13 @@
-.cabecalho{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.cor-laranja{
+    color: #E1ACAC;
+}
+
+.nav-link.active {
+    color: #E1ACAC !important;
+}
+
+.ajuste-imagem{
+    width: 10vw;
+    height: 10vh;
+    object-fit: cover; 
 }
